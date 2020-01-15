@@ -2,6 +2,46 @@
   'use strict;'
 
 
+  let getCurrentTime = () => {
+    currentTime = new Date();
+    return currentTime;
+    // dont forget the return
+  }
+
+  let $clock = document.getElementById('clock');
+  console.log('here is the console log', $clock);
+
+
+  $clock.innerHTML = getCurrentTime();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let $element = document.querySelector('span');
 // console.log($element);
 //
@@ -16,12 +56,13 @@
 // let date = new Date();
 // console.log(date);
 
-let getCurrentTime = () => {
-  currentTime = new Date();
-  console.log(currentTime)
-}
-//setInterval(function, ms)
-setInterval(getCurrentTime,1000);
+// let getCurrentTime = () => {
+//   currentTime = new Date();
+//   console.log(currentTime)
+// }
+// //setInterval(function, ms)
+// setInterval(getCurrentTime,1000);
+//
 
 // let $button = document.querySelector('button');
 // $button.addEventListener('click', () => {
