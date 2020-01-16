@@ -10,7 +10,7 @@
 
   let $clock = document.getElementById('clock');
   console.log('here is the console log', $clock);
-
+  
 
   $clock.innerHTML = getCurrentTime();
 
